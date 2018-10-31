@@ -6,7 +6,7 @@
     "__TRANSFORM_HTML__": true
   },
   "transform": {
-    "^.+\\.(ts|js|html)$": "<rootDir>/node_modules/jest-preset-angular/preprocessor.js"
+    "^.+\\.(ts|js|html)$": "jest-preset-angular/preprocessor.js"
   },
   "testMatch": [
     "**/__tests__/**/*.+(ts|js)?(x)",
@@ -28,7 +28,7 @@
     "node_modules/(?!@ngrx)"
   ],
   "snapshotSerializers": [
-    "<rootDir>/node_modules/jest-preset-angular/AngularSnapshotSerializer.js",
-    "<rootDir>/node_modules/jest-preset-angular/HTMLCommentSerializer.js"
+    "jest-preset-angular/AngularSnapshotSerializer.js",
+    "jest-preset-angular/HTMLCommentSerializer.js"
   ]
 }
